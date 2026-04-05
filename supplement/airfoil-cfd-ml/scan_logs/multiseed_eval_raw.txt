@@ -1,0 +1,132 @@
+=== v2.1_s42 ===
+=== V2 Test Metrics ===
+pressure_mae: 1098.388672
+u_mae: 7.443017
+v_mae: 6.375258
+pressure_rmse: 2671.281494
+u_rmse: 16.730347
+v_rmse: 12.458963
+pressure_rel_mae: 1.007586
+u_rel_mae: 0.134992
+v_rel_mae: 0.544430
+=== v2.1_s43 ===
+=== V2 Test Metrics ===
+pressure_mae: 1453.198975
+u_mae: 7.188406
+v_mae: 6.735998
+pressure_rmse: 3369.528564
+u_rmse: 15.740494
+v_rmse: 13.804237
+pressure_rel_mae: 1.332445
+u_rel_mae: 0.130374
+v_rel_mae: 0.575236
+=== v2.1_s44 ===
+=== V2 Test Metrics ===
+pressure_mae: 1363.367554
+u_mae: 7.410676
+v_mae: 6.273849
+pressure_rmse: 3603.033936
+u_rmse: 15.891960
+v_rmse: 13.247361
+pressure_rel_mae: 1.250078
+u_rel_mae: 0.134405
+v_rel_mae: 0.535770
+=== v2.1_s45 ===
+=== V2 Test Metrics ===
+pressure_mae: 1496.427856
+u_mae: 7.646705
+v_mae: 7.032272
+pressure_rmse: 4503.567383
+u_rmse: 15.240332
+v_rmse: 11.846393
+pressure_rel_mae: 1.372081
+u_rel_mae: 0.138686
+v_rel_mae: 0.600537
+=== v2.5_s42 ===
+=== V2 Test Metrics ===
+pressure_mae: 1142.086914
+u_mae: 6.904896
+v_mae: 6.023404
+pressure_rmse: 2890.223877
+u_rmse: 15.584561
+v_rmse: 12.925172
+pressure_rel_mae: 1.047672
+u_rel_mae: 0.125232
+v_rel_mae: 0.514383
+=== v2.5_s43 ===
+=== V2 Test Metrics ===
+pressure_mae: 1716.573364
+u_mae: 7.868138
+v_mae: 6.390029
+pressure_rmse: 4698.097168
+u_rmse: 16.000151
+v_rmse: 11.069887
+pressure_rel_mae: 1.573934
+u_rel_mae: 0.142702
+v_rel_mae: 0.545691
+=== v2.5_s44 ===
+=== V2 Test Metrics ===
+pressure_mae: 1323.372070
+u_mae: 9.583104
+v_mae: 7.766563
+pressure_rmse: 3451.479492
+u_rmse: 18.598274
+v_rmse: 13.727925
+pressure_rel_mae: 1.213406
+u_rel_mae: 0.173806
+v_rel_mae: 0.663244
+=== v2.5_s45 ===
+=== V2 Test Metrics ===
+pressure_mae: 1167.458740
+u_mae: 7.377243
+v_mae: 7.393583
+pressure_rmse: 2958.736084
+u_rmse: 16.457172
+v_rmse: 12.866635
+pressure_rel_mae: 1.070448
+u_rel_mae: 0.133799
+v_rel_mae: 0.631392
+=== v2.22_s42 ===
+=== V2 Test Metrics ===
+pressure_mae: 1168.126221
+u_mae: 6.810287
+v_mae: 5.727921
+pressure_rmse: 2795.548584
+u_rmse: 15.916951
+v_rmse: 12.032543
+pressure_rel_mae: 1.071559
+u_rel_mae: 0.123516
+v_rel_mae: 0.489149
+=== v2.22_s43 ===
+=== V2 Test Metrics ===
+pressure_mae: 1257.173096
+u_mae: 7.145089
+v_mae: 6.160548
+pressure_rmse: 3142.174316
+u_rmse: 16.117395
+v_rmse: 12.414844
+pressure_rel_mae: 1.152708
+u_rel_mae: 0.129588
+v_rel_mae: 0.526094
+=== v2.22_s44 ===
+=== V2 Test Metrics ===
+pressure_mae: 1215.320435
+u_mae: 6.719121
+v_mae: 5.760692
+pressure_rmse: 3165.557129
+u_rmse: 16.016361
+v_rmse: 11.862300
+pressure_rel_mae: 1.114333
+u_rel_mae: 0.121862
+v_rel_mae: 0.491948
+=== v2.22_s45 ===
+=== V2 Test Metrics ===
+pressure_mae: 1123.581787
+u_mae: 6.965679
+v_mae: 5.904009
+pressure_rmse: 2691.034424
+u_rmse: 16.180748
+v_rmse: 12.156380
+pressure_rel_mae: 1.030217
+u_rel_mae: 0.126334
+v_rel_mae: 0.504187

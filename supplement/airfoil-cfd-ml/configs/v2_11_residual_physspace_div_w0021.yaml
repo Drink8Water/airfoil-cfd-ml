@@ -1,0 +1,28 @@
+train_dir: "../train2"
+test_dir: "../test"
+batch_size: 20
+num_workers: 0
+val_ratio: 0.1
+seed: 42
+epochs: 50
+lr: 0.0001
+weight_decay: 0.001
+betas: [0.5, 0.999]
+channel_exponent: 6
+dropout: 0.0
+loss_weights: [5.0, 1.0, 1.0]
+gradient_loss_weights: [1.0, 1.0, 1.0]
+grad_loss_weight: 0.1
+divergence_loss_weight: 0.0021
+divergence_use_physical_space: true
+divergence_dvdy_scale: 1.0
+divergence_interior_margin: 6
+divergence_warmup_ratio: 0.3
+use_residual_learning: true
+edge_taper_width: 4
+edge_taper_power: 2.0
+obstacle_edge_width: 2
+obstacle_edge_weight: 0.85
+early_stopping_patience: 12
+early_stopping_min_delta: 0.0001
+save_dir: "checkpoints_v2_11_residual_physspace_div_w0021"
