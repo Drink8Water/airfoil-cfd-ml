@@ -1,0 +1,39 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+fluid/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Model checkpoints and artifacts
+checkpoints/
+checkpoints*/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/

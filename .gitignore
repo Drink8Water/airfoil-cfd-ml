@@ -1,0 +1,14 @@
+# Local Python environment
+fluid/
+
+# Course dataset folders (kept local, not in git)
+supplement/test/
+supplement/train2/
+
+# Large experiment artifacts under project folder
+supplement/airfoil-cfd-ml/checkpoints*/
+supplement/airfoil-cfd-ml/*.pt
+supplement/airfoil-cfd-ml/*.pth
+supplement/airfoil-cfd-ml/*.ckpt
+supplement/airfoil-cfd-ml/*.npy
+supplement/airfoil-cfd-ml/*.npz
