@@ -1,0 +1,29 @@
+# Benchmark smoke: SimpleCNN + mask_only (3-channel).
+# For quick end-to-end benchmark pipeline validation.
+
+data:
+  train_dir: "../train2"
+  val_dir: "../test"
+  batch_size: 4
+  num_workers: 0
+  geometry_mode: "mask_only"
+
+model:
+  name: "simple_cnn"
+  kwargs:
+    hidden_channels: 16
+    n_layers: 3
+    out_channels: 3
+
+loss:
+  name: "field"
+  kwargs:
+    reduction: "mse"
+    channel_weights: [1.0, 1.0, 1.0]
+
+train:
+  epochs: 1
+  lr: 0.001
+  weight_decay: 0.0
+  seed: 42
+  save_dir: "outputs/checkpoints/bench_smoke_cnn_mask"

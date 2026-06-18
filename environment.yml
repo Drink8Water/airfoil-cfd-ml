@@ -1,0 +1,21 @@
+name: airfoil-cfd-ml
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.26,<2
+  - matplotlib>=3.7
+  - pytorch>=2.0
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - tqdm>=4.64
+  - pyyaml>=6.0
+  - pandas>=1.5
+  - pip:
+      - pytest>=7.0
+      - pytest-cov>=4.0

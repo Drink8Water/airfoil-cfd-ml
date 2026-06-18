@@ -1,0 +1,28 @@
+# Benchmark smoke: ResUNet + mask_only (3-channel).
+# Tests ResU-Net in benchmark pipeline.
+
+data:
+  train_dir: "../train2"
+  val_dir: "../test"
+  batch_size: 2
+  num_workers: 0
+  geometry_mode: "mask_only"
+
+model:
+  name: "res_unet"
+  kwargs:
+    channel_exponent: 4
+    dropout: 0.0
+
+loss:
+  name: "field"
+  kwargs:
+    reduction: "mse"
+    channel_weights: [1.0, 1.0, 1.0]
+
+train:
+  epochs: 1
+  lr: 0.001
+  weight_decay: 0.0
+  seed: 42
+  save_dir: "outputs/checkpoints/bench_smoke_resunet_mask"

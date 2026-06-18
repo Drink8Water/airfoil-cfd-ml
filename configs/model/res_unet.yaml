@@ -1,0 +1,5 @@
+# ResUNet model config
+model_name: "res_unet"
+model_in_channels: 3
+model_channel_exponent: 6
+model_dropout: 0.0

@@ -1,0 +1,6 @@
+# Dev/test dependencies
+pytest>=7.0
+pytest-cov>=4.0
+
+# Also install runtime deps (uncomment if not already installed):
+# -r requirements.txt

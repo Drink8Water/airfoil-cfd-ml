@@ -1,0 +1,31 @@
+# Smoke experiment: ResUNet with mask_only geometry (3-channel input).
+# Tests the ResU-Net encoder-decoder pipeline end-to-end.
+#
+# Usage:
+#   python scripts/train.py --config configs/experiment/smoke_res_unet_mask_only.yaml
+
+data:
+  train_dir: "../train2"
+  val_dir: "../test"
+  batch_size: 4
+  num_workers: 0
+  geometry_mode: "mask_only"
+
+model:
+  name: "res_unet"
+  kwargs:
+    channel_exponent: 4
+    dropout: 0.0
+
+loss:
+  name: "field"
+  kwargs:
+    reduction: "mse"
+    channel_weights: [1.0, 1.0, 1.0]
+
+train:
+  epochs: 1
+  lr: 0.001
+  weight_decay: 0.0
+  seed: 42
+  save_dir: "outputs/checkpoints/smoke_res_unet_mask_only"

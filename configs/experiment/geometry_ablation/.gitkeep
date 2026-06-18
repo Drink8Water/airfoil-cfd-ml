@@ -1,0 +1,3 @@
+# geometry_ablation — geometry encoding ablation configs.
+# Compare: mask_only vs mask_xy vs mask_xy_sdf vs mask_xy_sdf_boundary.
+# Results go to: reports/geometry_ablation.csv

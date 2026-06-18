@@ -1,0 +1,6 @@
+# SimpleCNN model config (smoke-test baseline)
+model_name: "simple_cnn"
+model_in_channels: 3
+model_hidden_channels: 32
+model_n_layers: 4
+model_out_channels: 3

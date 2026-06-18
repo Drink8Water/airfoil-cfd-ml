@@ -1,0 +1,3 @@
+# physics_ablation — physics-aware loss ablation configs.
+# Compare: field loss only vs +divergence vs +gradient vs +boundary.
+# Results go to: reports/physics_ablation.csv

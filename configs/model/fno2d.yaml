@@ -1,0 +1,8 @@
+# FNO2D model config
+model_name: "fno2d"
+model_in_channels: 3
+model_width: 32
+model_modes1: 12
+model_modes2: 12
+model_depth: 4
+model_activation: "gelu"

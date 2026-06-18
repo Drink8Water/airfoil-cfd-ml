@@ -1,0 +1,5 @@
+# main_benchmark — real benchmark configs (full epochs, full-size models).
+# Results go to: reports/main_benchmark.csv
+# This directory is for real research experiments, NOT smoke tests.
+# Each config should train for ≥50 epochs with early stopping.
+# Smoke tests live in: configs/experiment/benchmark_smoke/
